@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Leibniz Nails
 
-const CACHE_NAME = 'leibniznails-v29';
+const CACHE_NAME = 'leibniznails-v47';
 const urlsToCache = [
   '/leibniznails/',
   '/leibniznails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/leibniznails/icons/icon-152x152.png',
   '/leibniznails/icons/icon-192x192.png',
   '/leibniznails/icons/icon-384x384.png',
-  '/leibniznails/icons/icon-512x512.png'
+  '/leibniznails/icons/icon-512x512.png',
+  '/leibniznails/vendor/react.production.min.js',
+  '/leibniznails/vendor/react-dom.production.min.js',
+  '/leibniznails/vendor/babel.min.js',
+  '/leibniznails/vendor/bcrypt.min.js',
+  '/leibniznails/vendor/tailwind-browser.js',
+  '/leibniznails/vendor/lucide/lucide.css',
+  '/leibniznails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
